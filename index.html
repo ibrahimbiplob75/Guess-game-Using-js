@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Play a Guess Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h1 class="text"></h1>
+    <div class="scoreboard">
+        <div class="team-container">
+            <h2 class="text">Player-1</h2>
+            <div class="one">
+                <p class="pts" id="home-pts">0</p>
+                <p class="pts-shadow">000</p>
+            </div>
+            <div class="two">
+                <button id="one-pt" onclick="player1()">Play</button>
+               
+            </div>
+        </div>
+        <div class="team-container">
+            <h2 class="text">Player-2</h2>
+            <div class="one">
+                <p class="pts" id="guest-pts">0</p>
+                <p class="pts-shadow">000</p>
+            </div>
+            <div class="two">
+                <button id="one-pt" onclick="player2()">Play</button>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
